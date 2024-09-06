@@ -1,8 +1,5 @@
 # Metatags in head element
-
-Boilerplate code for a simple WebApp
-
-## Developing
+This is an webApp for adding metatags to the HTML document `<head>` element.
 
 ## Getting Started
 
