@@ -1,4 +1,4 @@
-# Metadata i head
+# Metatags in head element
 
 Boilerplate code for a simple WebApp
 
