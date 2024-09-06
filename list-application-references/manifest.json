@@ -1,0 +1,17 @@
+{
+  "id": "get-application-references",
+  "version": "1.0.0",
+  "name": {
+    "en": "Lista referenser för Tillägg"
+  },
+  "author": "Filip Huhta",
+  "description": {
+    "en": "Listar alla referenser för ett Tillägg"
+  },
+  "helpUrl": "#",
+  "type": "WebApp",
+  "bundled": true,
+  "requiredLibs": {
+    "react": "17.0.2"
+  }
+}
