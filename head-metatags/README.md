@@ -13,7 +13,7 @@ Configure the application with metadata attribute names as a comma separated `st
 
 Example: `pageName,SV.title`.
 
-This will first set `pageName`value as the content of the metatag `og:title` then `SV.title` etc...
+This will first set `pageName`value as the content of the metatag `og:title` then `SV.Title` etc...
 
 Html that will be added to the page `<head>` element:
 
