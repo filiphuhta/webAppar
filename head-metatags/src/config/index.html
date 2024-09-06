@@ -1,0 +1,60 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3>Inställningar</h3>
+  </div>
+  <div class="panel-body">
+    <div class="form-group">
+      <p>Följande metataggar kommer applikationen att lägga till i <b>head</b> för all sidor som använder mallen där
+        modulen är placerad.</p>
+
+      <xmp>
+
+        <head>
+          // OG taggar
+          <meta property="og:title" content="" />
+          <meta property="og:description" content="" />
+          <meta property="og:image" content="" />
+          <meta property="og:image:width" content="" />
+          <meta property="og:image:height" content="" />
+          <meta property="og:image:type" content="" />
+          <meta property="og:url" content="" />
+          <meta property="og:type" content="" />
+
+          // Standard taggar
+          <meta name="description" content="" />
+
+          // Twitter
+          <meta name="twitter:card" content="" />
+        </head>
+      </xmp>
+
+      <p>Alla fält ska fyllas i likt följande: <b>commonCoreTitle,OG.Title,pageName,SV.Title</b> där fälten som ska fyllas i är de som ligger i sidornas headless. Finns under Ögat -> Headless.</p>
+
+      <div class="form-group">
+        <label>Sitevision metadata som ska användas för og:title</label>
+        <input class="form-control" name="title" />
+      </div>
+
+      <div class="form-group">
+        <label>Sitevision metadata som ska användas för og:description</label>
+        <input class="form-control" name="ogDescription" />
+      </div>
+
+      <div class="form-group">
+        <label>Sitevision metadata som ska användas för description</label>
+        <input class="form-control" name="seoDescription" />
+      </div>
+
+      <div class="form-group">
+        <label>Sitevision metadata som ska användas för og:image</label>
+        <input class="form-control" name="image" />
+      </div>
+      
+      <div class="form-group"></div>
+        <label>Sitevision metadata som ska användas för og:image</label>
+        <input class="form-control" data-component="image-selector" name="fallbackImage" />
+      </div>
+    
+    </div>
+  </div>
+</div>

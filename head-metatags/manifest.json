@@ -1,0 +1,15 @@
+{
+  "id": "head-metatags",
+  "version": "1.0.0",
+  "name": {
+    "en": "Metadata i head"
+  },
+  "author": "Filip Huhta",
+  "description": {
+    "en": "Lista ut metadata i head"
+  },
+  "helpUrl": "https://example.com/webapps",
+  "type": "WebApp",
+  "bundled": true,
+  "maxUploadSizeInMB": 0
+}
